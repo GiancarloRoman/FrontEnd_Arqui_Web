@@ -25,7 +25,14 @@ module.exports = function() {
                 nombrePrenda: "Medias",
                 colorPrenda: "Gris",
                 disenoPrenda: "Animado"
+            },
+            {
+                id:5,
+                nombrePrenda: "Falda",
+                colorPrenda: "Rojo",
+                disenoPrenda: "Falda larga"
             }
+          
         ],
         marcas:
         [
