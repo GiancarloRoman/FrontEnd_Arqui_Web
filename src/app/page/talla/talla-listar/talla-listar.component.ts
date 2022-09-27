@@ -37,7 +37,7 @@ export class TallaListarComponent implements OnInit {
   eliminar(id:number){
     this.tService.eliminar(id).subscribe(()=>{
       this.tService.listar().subscribe(data=>{
-        this.tService.setLista(data);
+        
       });
     });
   }
