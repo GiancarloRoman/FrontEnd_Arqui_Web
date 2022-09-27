@@ -14,6 +14,7 @@ export class TallaBuscarComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  //buscar talla:
   buscar(e:any){
     let array: Talla[]=[];  
     this.tallaService.listar().subscribe(data=>{
