@@ -47,7 +47,7 @@ export class TallaCreaeditaComponent implements OnInit {
   init(){
     if(this.edicion){
       this.tallaService.listarId(this.id).subscribe(data=>{
-        //this.talla=data;
+        this.talla=data;
       })
     }
   }
